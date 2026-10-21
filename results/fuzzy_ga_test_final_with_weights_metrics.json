@@ -1,0 +1,22 @@
+{
+    "model": "Fuzzy-GA",
+    "split": "test",
+    "test_start": "2025-01-01",
+    "test_end": "2025-12-31",
+    "weeks_evaluated": 53,
+    "parameters": {
+        "max_weight": 0.4,
+        "population_size": 100,
+        "generations": 30,
+        "mutation_rate": 0.05,
+        "fuzzy_weight": 0.2,
+        "random_seed": 42
+    },
+    "total_return": -0.020881668482642834,
+    "annualized_return": -0.020491739673971998,
+    "annualized_volatility": 0.11694759753980064,
+    "sharpe_ratio": -0.11978768029782928,
+    "maximum_drawdown": -0.13312950482502872,
+    "average_weekly_turnover": 0.19193157302846423,
+    "total_transaction_costs": 0.010172373370508605
+}

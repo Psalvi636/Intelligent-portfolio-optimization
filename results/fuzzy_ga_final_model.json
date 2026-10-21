@@ -1,0 +1,26 @@
+{
+    "model": "Fuzzy-GA",
+    "selection_criterion": "Highest mean validation Sharpe ratio across three seeds; ties broken by lower Sharpe standard deviation, then higher mean total return.",
+    "robustness_seeds": [
+        42,
+        123,
+        2026
+    ],
+    "parameters": {
+        "max_weight": 0.4,
+        "population_size": 100,
+        "generations": 30,
+        "mutation_rate": 0.05,
+        "fuzzy_weight": 0.2,
+        "random_seed": 42
+    },
+    "robustness_metrics": {
+        "mean_sharpe": 1.401631269597735,
+        "std_sharpe": 0.012804535540052755,
+        "mean_total_return": 0.38122199189497535,
+        "mean_annualized_return": 0.17344584575032682,
+        "mean_annualized_volatility": 0.11930394192628369,
+        "mean_maximum_drawdown": -0.08515141332673455,
+        "mean_weekly_turnover": 0.15511756610655433
+    }
+}
