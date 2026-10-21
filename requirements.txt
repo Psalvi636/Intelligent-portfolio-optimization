@@ -1,0 +1,15 @@
+numpy
+pandas
+yfinance
+scikit-learn
+matplotlib
+seaborn
+scipy
+openpyxl
+jupyter
+scikit-fuzzy
+networkx
+gymnasium
+stable-baselines3
+streamlit
+plotly
